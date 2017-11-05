@@ -77,8 +77,8 @@ public class ThreadClock extends Thread {
     }
 
     private void initialize() {
-        seg = 10;
-        min = 0;
+        seg = 0;
+        min = 10;
         display();
     }
 
